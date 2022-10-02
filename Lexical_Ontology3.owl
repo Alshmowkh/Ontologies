@@ -1,0 +1,510 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://alshmowkh.ont/lexical_Ontology/2017"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://alshmowkh.ont/lexical_Ontology/2017"
+     versionIRI="http://alshmowkh.ont/lexical_Ontology/2017/1.0.0">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#أحياء"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#اسبوع"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#انسان"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بحر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بحيرة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#برمائي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بلد"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ثانية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ثدي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#حاسوب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#حبوب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#حرف"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#خضار"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#دقيقة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#رياضيات"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#زاحف"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#سائل"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ساعة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#سمك"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#سنة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#شارع"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#شهر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#صلب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#طب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#طير"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#عام"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#علم"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#عمر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#غاز"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#فعل"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#فلك"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#فواكة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#فيزياء"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#قرآن"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#قرن"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#كيمياء"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#لغة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مادة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مال_أعمال"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#محيط"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مدينة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#منطقة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#نفس"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#هندسة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#وقت"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#يوم"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#بدائي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#طلائعي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فطري"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#لافقارية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#استقلال"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#ثورة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حدث"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مهرجان"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#acts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#has_attribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#لكم"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#سنة"/>
+        <Class IRI="#عام"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#مادة"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#أحياء"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#اسبوع"/>
+        <Class IRI="#شهر"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#انسان"/>
+        <Class IRI="#ثدي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بحر"/>
+        <Class IRI="#سائل"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بحيرة"/>
+        <Class IRI="#بحر"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#برمائي"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بلد"/>
+        <Class IRI="#منطقة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ثانية"/>
+        <Class IRI="#دقيقة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ثدي"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#حاسوب"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#حبوب"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#حرف"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#خضار"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#دقيقة"/>
+        <Class IRI="#ساعة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#رياضيات"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#زاحف"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#سائل"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ساعة"/>
+        <Class IRI="#يوم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#سمك"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#سنة"/>
+        <Class IRI="#قرن"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#شارع"/>
+        <Class IRI="#مدينة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#شهر"/>
+        <Class IRI="#سنة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#صلب"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#طب"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#طير"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#عام"/>
+        <Class IRI="#قرن"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#علم"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#عمر"/>
+        <Class IRI="#وقت"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#غاز"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#فعل"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#فلك"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#فواكة"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#فيزياء"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#قرآن"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#قرن"/>
+        <Class IRI="#وقت"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#كيمياء"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#لغة"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مادة"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مال_أعمال"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#محيط"/>
+        <Class IRI="#سائل"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مدينة"/>
+        <Class IRI="#بلد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#منطقة"/>
+        <Class IRI="#صلب"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#نفس"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#هندسة"/>
+        <Class IRI="#علم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#وقت"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#يوم"/>
+        <Class IRI="#اسبوع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#بدائي"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#طلائعي"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فطري"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#فقارية"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#لافقارية"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#استقلال"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#ثورة"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حدث"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حدث"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مهرجان"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات"/>
+        <Class IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#acts"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#is_a"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#لكم"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#acts"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#has_attribute"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

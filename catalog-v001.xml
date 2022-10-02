@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://alshmowkh.ont/Arabic_SUMO/" uri="Arabic_SUMO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://alshmowkh.ont/lexical_Ontology/2017" uri="Lexical_Ontology3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://www.co-ode.org/ontologies/pizza/pizza.owl" uri="pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology" uri="Lexical_Ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="duplicate:http://www.semanticweb.org/الشموخ/ontologies/2016/9/AlshmowhRhe" uri="ALshmowkhRhe.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="duplicate:http://www.semanticweb.org/الشموخ/ontologies/2016/9/AlshmowhRhe" uri="ArabicRhetoricalRelations.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://www.semanticweb.org/الشموخ/ontologies/2017/0/untitled-ontology-43" uri="SPARQL_practice.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62" uri="NERnecessity.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="http://www.semanticweb.org/ِAlshmowkh/Ontology/Lex1" uri="Lex_01.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="duplicate:http://www.w3.org/2002/07/owl" uri="Lexical_Ontology.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1491579944252" name="duplicate:http://www.w3.org/2002/07/owl" uri="Lexical_Ontology2.rdf"/>
+    </group>
+</catalog>

@@ -1,0 +1,25 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <owl:Class rdf:about="#network"/>
+  <owl:Class rdf:about="#ontology"/>
+  <owl:Class rdf:about="#physical_layer">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#layer"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#data_link_layer">
+    <rdfs:subClassOf rdf:resource="#layer"/>
+  </owl:Class>
+  <owl:Class rdf:about="#network_layer">
+    <rdfs:subClassOf rdf:resource="#layer"/>
+  </owl:Class>
+  <owl:Class rdf:about="#computer_network">
+    <rdfs:subClassOf rdf:resource="#network"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ontology_extraction">
+    <rdfs:subClassOf rdf:resource="#ontology"/>
+  </owl:Class>
+</rdf:RDF>

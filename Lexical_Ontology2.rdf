@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology">
+        <versionIRI rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology"/>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#acts -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#acts">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#has_attribute -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#has_attribute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#انسان"/>
+        <rdfs:range rdf:resource="&owl;Thing"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#is_a -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#is_a">
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#لكم -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#لكم">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#acts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#انسان"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#أحداث -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#أحداث">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#استقلال -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#استقلال">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#انسان -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#انسان">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#عاقل"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#ثورة -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#ثورة">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#جماد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#عاقل -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#عاقل">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#غيرعاقل -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#غيرعاقل">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حيوان"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#أحداث"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كائن">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#كلمة"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مؤنث -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مؤنث">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#انسان"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مجرد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#اسم"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مذكر -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مذكر">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#انسان"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مهرجان -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#مهرجان">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#قومية"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات -->
+
+    <Class rdf:about="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#نبات">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ALshmowkh_Research/Lexical_Ontology#حي"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

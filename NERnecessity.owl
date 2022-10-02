@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#"
+     xml:base="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#أحمد -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#أحمد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#اسم_علم"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#أسد -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#أسد">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#غير_عاقل"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#اسم_علم -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#اسم_علم">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#انسان"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#انسان -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#انسان">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#عاقل"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#حمار -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#حمار">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#غير_عاقل"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#حيوان -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#حيوان"/>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#سائق -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#سائق">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#فاعل"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#صالح -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#صالح">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#اسم_علم"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#طالب -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#طالب">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#فاعل"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#عاقل -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#عاقل">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#حيوان"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#علي -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#علي">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#اسم_علم"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#غير_عاقل -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#غير_عاقل">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#حيوان"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#فاعل -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#فاعل">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#انسان"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#قط -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#قط">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#غير_عاقل"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#ملاكم -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#ملاكم">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/الشموخ/ontologies/2017/3/untitled-ontology-62#فاعل"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

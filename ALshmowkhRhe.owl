@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/الشموخ/ontologies/2016/9/AlshmowhRhe"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/الشموخ/ontologies/2016/9/AlshmowhRhe">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#استعارة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الأمر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الاستفهام"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الاطناب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الاقتباس"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الانشاء_الطلبي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الايجاز"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#البديع"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#البيان"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التأخير"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التعريف"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التعليل"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التقديم"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التمني"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التنكير"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#التورية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الجناس"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الحذف"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الخبر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الذكر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#السجع"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الطباق"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الفصل"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#القصر"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#المساواة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#المعاني"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#المقابلة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الموازنة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#النداء"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#النص"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#النهي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#الوصل"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بالأداة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بالأداة_ووجه_الشبة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بلاغة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#بوجه_الشبة"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تام"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تشبية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تصريحية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تمثيلي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#تمثيلية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ضمني"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#عقلي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#غيربلاغي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#كناية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#لغوي"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مجاز"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مرسل"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مقلوب"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#مكنية"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ناقص"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#أرضهم_ما_دمت_في_أرضهم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#أفشوا_السلام_,_واطعموا_الطعام_,_وصلوا_الارحام_,_وصلوا_بالليل_والناس_نيام_تدخلوا_جنة_ربكم_بسلام"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ألتقيت_به_في_المغرب"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#أنتي_روحي"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#أَمَّا_مَنْ_أَعْطَى_وَاتَّقَى_*_وَصَدَّقَ_بِالْحُسْنَى_*_فَسَنُيَسِّرُهُ_لِلْيُسْرَى_*_وَأَمَّا_مَنْ_بَخِلَ_وَاسْتَغْنَى_*_وَكَذَّبَ_بِالْحُسْنَى_*_فَسَنُيَسِّرُهُ_لِلْعُسْرَى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#إني_أرى_رؤساُ_قد_اينعت_وحان_قطافها"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#احمرّ_الورد_خجلا_منك"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#الذي_خلقني_فهو_يهدين_والذي_هو_يطعمني_ويسقين_وإذا_مرضت_فهو_يشفين_والذي_يميتني_ثم_يحيين"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#الصوم_حرمان_مشروع_،_وتأديب_بالجوع_،_وخشوع_لله_وخضوع"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#الطفل_يبكي_من_صروف_الدهر"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#العلم_كـالنور_يهدي_كل_من_طلبه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#الكاسه_خافت_منك_فانكسرت"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#اللهم_آمن_روعاتنا_،_واستر_عوراتنا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#اللهم_أعطِ_منفقا_خلفا_و_أعطِ_ممسكا_تلفا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#اللهم_أني_أسألك_عملاً_باراً_وعيشاً_قاراً_ورزقاً_داراً"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#تُؤْتِي_الْمُلْكَ_مَنْ_تَشَاءُ_وَتَنْزِعُ_الْمُلْكَ_مِمَّنْ_تَشَاءُ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#جيت_وجاء_الخير"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#جُبِلَتْ_القُلوبُ_على_حُبِّ_من_أحْسَنَ_إلَيها_وبُغْضِ_من_أساءَ_إلَيها"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#حُفَّتِ_الجَنَّةُ_بِالمكارِهِ_والنَّارُ_بِالشَّهوات"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#خلف_كل_رجلاً_عظيم_إمراءة"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ذهب_إلى_من_عنده_ذهب"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#سأسلمها_إلى_أيادي_أمينة"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#شعباً_أردت_له_الحياة_فاراد_لي_الموت"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#شمس_شمس"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#صليت_المغرب_في_المغرب"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#عينٌ_ساهرة،_لعين_نائمة"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#فَلِيَضْحَكوا_قَليلاً_وَلِيَبْكوا_كَثيراً"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#قُلْ_هَلْ_يَسْتَوِي_الَّذِينَ_يَعْلَمُونَ_وَالَّذِينَ_لا_يَعْلَمُونَ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#لا_فضل_لأبيض_على_أسود"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#لايحيق_المكر_السيئ_إلا_بأهله"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#لك_مثل_ما_عليك"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#لولا_مساعدة_استاذي_لما_نجحت"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#هرمنا"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وآتيناهما_الكتاب_المستبين،وهديناهما_الصراط_المستقيم"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وأما_اليتيم_فلا_تقهر_._وأما_السائل_فلا_تنهر"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وسميناه_يحيى_ليحيى"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ومامحمد_إلا_رسول"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وهم_ينهون_عنه_وينأون_عنه"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ويوم_تقوم_الساعة_يقسم_الجرمون_ما_لبثوا_غير_ساعة"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وَتَخْشَى_الناس_والله_أَحَقُّ_أَن_تَخْشَاهُ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وَلَوْلا_رَهْطُكَ_لَرَجَمْنَاكَ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#وَنَمَارِقُ_مَصْفُوفَةٌ_*_وَزَرَابِيُّ_مَبْثُوثَةٌ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#يقولون_إن_الشوق_نار_ولوعة__فما_بال_شوقي_اليوم_أصبح_باردا"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#استعارة"/>
+        <Class IRI="#لغوي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الأمر"/>
+        <Class IRI="#الانشاء_الطلبي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الاستفهام"/>
+        <Class IRI="#الانشاء_الطلبي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الاطناب"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الاقتباس"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الانشاء_الطلبي"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الايجاز"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#البديع"/>
+        <Class IRI="#بلاغة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#البيان"/>
+        <Class IRI="#بلاغة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التأخير"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التعريف"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التعليل"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التقديم"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التمني"/>
+        <Class IRI="#الانشاء_الطلبي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التنكير"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#التورية"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الجناس"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الحذف"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الخبر"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الذكر"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#السجع"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الطباق"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الفصل"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#القصر"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#المساواة"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#المعاني"/>
+        <Class IRI="#بلاغة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#المقابلة"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الموازنة"/>
+        <Class IRI="#البديع"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#النداء"/>
+        <Class IRI="#الانشاء_الطلبي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#النهي"/>
+        <Class IRI="#الانشاء_الطلبي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#الوصل"/>
+        <Class IRI="#المعاني"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بالأداة"/>
+        <Class IRI="#تشبية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بالأداة_ووجه_الشبة"/>
+        <Class IRI="#تشبية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بلاغة"/>
+        <Class IRI="#النص"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#بوجه_الشبة"/>
+        <Class IRI="#تشبية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تام"/>
+        <Class IRI="#الجناس"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تشبية"/>
+        <Class IRI="#البيان"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تصريحية"/>
+        <Class IRI="#استعارة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تمثيلي"/>
+        <Class IRI="#تشبية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#تمثيلية"/>
+        <Class IRI="#استعارة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ضمني"/>
+        <Class IRI="#تشبية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#عقلي"/>
+        <Class IRI="#مجاز"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#غيربلاغي"/>
+        <Class IRI="#النص"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#كناية"/>
+        <Class IRI="#البيان"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#لغوي"/>
+        <Class IRI="#مجاز"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مجاز"/>
+        <Class IRI="#البيان"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مرسل"/>
+        <Class IRI="#لغوي"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مقلوب"/>
+        <Class IRI="#تشبية"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#مكنية"/>
+        <Class IRI="#استعارة"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ناقص"/>
+        <Class IRI="#الجناس"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#تام"/>
+        <NamedIndividual IRI="#أرضهم_ما_دمت_في_أرضهم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#السجع"/>
+        <NamedIndividual IRI="#أفشوا_السلام_,_واطعموا_الطعام_,_وصلوا_الارحام_,_وصلوا_بالليل_والناس_نيام_تدخلوا_جنة_ربكم_بسلام"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التورية"/>
+        <NamedIndividual IRI="#ألتقيت_به_في_المغرب"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التورية"/>
+        <NamedIndividual IRI="#أنتي_روحي"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#المقابلة"/>
+        <NamedIndividual IRI="#أَمَّا_مَنْ_أَعْطَى_وَاتَّقَى_*_وَصَدَّقَ_بِالْحُسْنَى_*_فَسَنُيَسِّرُهُ_لِلْيُسْرَى_*_وَأَمَّا_مَنْ_بَخِلَ_وَاسْتَغْنَى_*_وَكَذَّبَ_بِالْحُسْنَى_*_فَسَنُيَسِّرُهُ_لِلْعُسْرَى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الاقتباس"/>
+        <NamedIndividual IRI="#إني_أرى_رؤساُ_قد_اينعت_وحان_قطافها"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التعليل"/>
+        <NamedIndividual IRI="#احمرّ_الورد_خجلا_منك"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#السجع"/>
+        <NamedIndividual IRI="#الذي_خلقني_فهو_يهدين_والذي_هو_يطعمني_ويسقين_وإذا_مرضت_فهو_يشفين_والذي_يميتني_ثم_يحيين"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#السجع"/>
+        <NamedIndividual IRI="#الصوم_حرمان_مشروع_،_وتأديب_بالجوع_،_وخشوع_لله_وخضوع"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التعليل"/>
+        <NamedIndividual IRI="#الطفل_يبكي_من_صروف_الدهر"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#بالأداة_ووجه_الشبة"/>
+        <NamedIndividual IRI="#العلم_كـالنور_يهدي_كل_من_طلبه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التعليل"/>
+        <NamedIndividual IRI="#الكاسه_خافت_منك_فانكسرت"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ناقص"/>
+        <NamedIndividual IRI="#اللهم_آمن_روعاتنا_،_واستر_عوراتنا"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#المقابلة"/>
+        <NamedIndividual IRI="#اللهم_أعطِ_منفقا_خلفا_و_أعطِ_ممسكا_تلفا"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ناقص"/>
+        <NamedIndividual IRI="#اللهم_أني_أسألك_عملاً_باراً_وعيشاً_قاراً_ورزقاً_داراً"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الطباق"/>
+        <NamedIndividual IRI="#تُؤْتِي_الْمُلْكَ_مَنْ_تَشَاءُ_وَتَنْزِعُ_الْمُلْكَ_مِمَّنْ_تَشَاءُ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التعليل"/>
+        <NamedIndividual IRI="#جيت_وجاء_الخير"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#المقابلة"/>
+        <NamedIndividual IRI="#جُبِلَتْ_القُلوبُ_على_حُبِّ_من_أحْسَنَ_إلَيها_وبُغْضِ_من_أساءَ_إلَيها"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الاقتباس"/>
+        <NamedIndividual IRI="#خلف_كل_رجلاً_عظيم_إمراءة"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#تام"/>
+        <NamedIndividual IRI="#ذهب_إلى_من_عنده_ذهب"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التورية"/>
+        <NamedIndividual IRI="#سأسلمها_إلى_أيادي_أمينة"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الاقتباس"/>
+        <NamedIndividual IRI="#شعباً_أردت_له_الحياة_فاراد_لي_الموت"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#تام"/>
+        <NamedIndividual IRI="#شمس_شمس"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#تام"/>
+        <NamedIndividual IRI="#صليت_المغرب_في_المغرب"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الطباق"/>
+        <NamedIndividual IRI="#عينٌ_ساهرة،_لعين_نائمة"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#المقابلة"/>
+        <NamedIndividual IRI="#فَلِيَضْحَكوا_قَليلاً_وَلِيَبْكوا_كَثيراً"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الطباق"/>
+        <NamedIndividual IRI="#قُلْ_هَلْ_يَسْتَوِي_الَّذِينَ_يَعْلَمُونَ_وَالَّذِينَ_لا_يَعْلَمُونَ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الطباق"/>
+        <NamedIndividual IRI="#لا_فضل_لأبيض_على_أسود"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#القصر"/>
+        <NamedIndividual IRI="#لايحيق_المكر_السيئ_إلا_بأهله"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الطباق"/>
+        <NamedIndividual IRI="#لك_مثل_ما_عليك"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التعليل"/>
+        <NamedIndividual IRI="#لولا_مساعدة_استاذي_لما_نجحت"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الاقتباس"/>
+        <NamedIndividual IRI="#هرمنا"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الموازنة"/>
+        <NamedIndividual IRI="#وآتيناهما_الكتاب_المستبين،وهديناهما_الصراط_المستقيم"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ناقص"/>
+        <NamedIndividual IRI="#وأما_اليتيم_فلا_تقهر_._وأما_السائل_فلا_تنهر"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#تام"/>
+        <NamedIndividual IRI="#وسميناه_يحيى_ليحيى"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#القصر"/>
+        <NamedIndividual IRI="#ومامحمد_إلا_رسول"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ناقص"/>
+        <NamedIndividual IRI="#وهم_ينهون_عنه_وينأون_عنه"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#تام"/>
+        <NamedIndividual IRI="#ويوم_تقوم_الساعة_يقسم_الجرمون_ما_لبثوا_غير_ساعة"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الموازنة"/>
+        <NamedIndividual IRI="#وَتَخْشَى_الناس_والله_أَحَقُّ_أَن_تَخْشَاهُ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التعليل"/>
+        <NamedIndividual IRI="#وَلَوْلا_رَهْطُكَ_لَرَجَمْنَاكَ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#الموازنة"/>
+        <NamedIndividual IRI="#وَنَمَارِقُ_مَصْفُوفَةٌ_*_وَزَرَابِيُّ_مَبْثُوثَةٌ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#التورية"/>
+        <NamedIndividual IRI="#يقولون_إن_الشوق_نار_ولوعة__فما_بال_شوقي_اليوم_أصبح_باردا"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#بالأداة_ووجه_الشبة</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">هذا الكلاس عبارة عن تقاطع كلا من الكلاسين التاليين:
+بوجة الشبة
+بالأداة
+</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
